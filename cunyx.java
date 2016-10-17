@@ -4,7 +4,7 @@ public class cunyx {
 		public static void main (String[] args){	
 			//Creating an input field
 			Scanner ui = new Scanner(System.in);
-			String input = null;
+			String input = " ";
 			
 			//Infinite Loop while input is NOT "quit"
 			while (!terminationCheck(input)){
