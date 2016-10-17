@@ -6,7 +6,7 @@
 public class Process{
   
   /* Class Variables */
-	private static int IDCounter = 0;
+    private static int IDCounter = 0;
     private int processID;
     private String processName;
 
