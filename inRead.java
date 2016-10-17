@@ -9,7 +9,9 @@ public class inRead {
 			String str;
 			
 			while ((str = br.readLine()) != null){
-				System.out.println(str);
+				Process p = new Process();
+				p.setProcessName(str);
+				System.out.println(p.toString());
 			}
 			br.close();
 		}
